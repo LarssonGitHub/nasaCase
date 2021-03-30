@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space</title>
+    <style>
+        :root {
+            --inputcolor: #9297BF;
+            --objectcolorred: #8B0B0B;
+            --objectcolorblue: #032A63;
+            --maintextcolor: #F6F7FF;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body * {
+            color: var(--maintextcolor);
+            font: normal normal normal 20px/23px Arial;
+        }
+
+
+        .sectionContainer {
+            padding: 48px 28px;
+            background-image:
+                linear-gradient(180deg, #225EC542 0%, #000000 100%),
+                url("space.jpg");
+            background-repeat: no-repeat;
+            width: 414px;
+            height: 736px;
+        }
+
+        h1 {
+            font: normal normal bold 35px/40px Arial;
+            margin-bottom: 22px;
+        }
+
+        h1,
+        p {
+            text-align: center;
+        }
+
+        .svgDiv {
+            margin: 27px 0;
+        }
+
+        form {
+            text-align: left;
+        }
+
+        h2 {
+            font: normal normal bold 20px/23px Arial;
+            margin-bottom: 12px;
+        }
+
+        .inputContainer {
+            width: 100%;
+            padding: 14px 9px;
+            display: block;
+            margin-bottom: 22px;
+            background: var(--objectcolorblue) 0% 0% no-repeat padding-box;
+            background: #032A63 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px #00000029;
+            border-radius: 8px;
+            opacity: 0.81;
+            border: none;
+        }
+
+        ::placeholder {
+            color: var(--inputcolor);
+        }
+
+        #button {
+            margin: 50px auto;
+            display: block;
+            margin: auto;
+            background: var(--objectcolorred) 0% 0% no-repeat padding-box;
+            background: #8B0B0B 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px #00000029;
+            opacity: 1;
+            border: none;
+            border-radius: 25px;
+            padding: 14px 54px;
+        }
+
+        #button:hover {
+            background: var(--maintextcolor) 0% 0% no-repeat padding-box;
+            color: var(--objectcolorblue);
+        }
+
+.toAdobeXD {
+    display: block;
+  margin: 20px 0 0 20px;
+  color: #000000;
+  font-size: 30px;
+}
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="sectionContainer">
+            <h1>TAKE THE UNKOWN STEP INTO SPACE</h1>
+            <p>Be the man of your own destiny, apply for The International Space Station (ISS) and join our family!</p>
+
+            <div class="svgDiv">
+                <svg xmlns="http://www.w3.org/2000/svg" width="357.109" height="31" viewBox="0 0 357.109 31">
+                    <defs>
+                        <style>
+                            .a {
+                                fill: none;
+                                stroke: #8b0b0b;
+                                stroke-miterlimit: 10;
+                                stroke-width: 4px;
+                            }
+
+                            .b {
+                                fill: #8b0b0b;
+                            }
+                        </style>
+                    </defs>
+                    <g transform="translate(293.587 -122.642) rotate(90)">
+                        <g transform="translate(132.235 3.478)">
+                            <path class="a" d="M153.189,285.609s-4.931,114.474,4.637,290"
+                                transform="translate(-151.919 -285.609)" />
+                        </g>
+                        <g transform="translate(122.642 -63.522)">
+                            <path class="b"
+                                d="M148.112,42.478c-10.469,2.778-17.825,18.241-16.673,26.382-3.291,1.089-5.33,4.852-5.861,8.007a30.108,30.108,0,0,0-.189,12.016c1.043,1.729,4.1.717,4.058-1.253.784-2.73,1.149-5.573,2.334-8.154a15.039,15.039,0,0,1,.57,5.737,18.084,18.084,0,0,0,1.973,7.38c.954,3.9.416,8.022,1.57,11.91,2.8-4.158,3.724-9.648,7.87-12.794,1.991-1.907,2.637-4.7,3.784-7.091a16.056,16.056,0,0,0,1.277-1.858c.144,3.428-1.331,9.244-.867,10.2.75,1.844,3.393,1.572,4.256-.481,2.192-4.993,4.544-10.493,3.31-16.05a7.919,7.919,0,0,0-2.367-3.18c1.543-4.768,6.4-17.177-5.045-30.767Z"
+                                transform="translate(-124.865 -42.478)" />
+                        </g>
+                    </g>
+                </svg>
+            </div>
+
+            <form action="#">
+                <h2>Register Account</h2>
+                <input class="inputContainer" type="text" name="a" id="a" placeholder="Name">
+                <input class="inputContainer" type="text" name="b" id="b" placeholder="Email">
+                <input class="inputContainer" type="text" name="c" id="c" placeholder="Password">
+                <input class="inputContainer" type="text" name="d" id="d" placeholder="Repeat Password">
+                <input id="button" type="submit" value="Sign Up">
+            </form>
+
+            <!--https://xd.adobe.com/view/ec64d5a4-4c2c-4075-97c8-f9c2d4178ace-b937/-->
+        </section>
+
+      <a class="toAdobeXD" href="https://xd.adobe.com/view/ec64d5a4-4c2c-4075-97c8-f9c2d4178ace-b937/">To the adobe XD!</a>
+        
+        </main>
+</body>
+
+</html>
